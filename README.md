@@ -8,7 +8,7 @@ we scale the image to size of (180,180), this function returns a tensor batch da
 with this function we also convert the image into gray scale, the reason for that is because this image are X-ray images so 
 in this cases the color channel doesn't have much relevant than other features like blank intensity changes and edge detection.
 
-![image](https://user-images.githubusercontent.com/86735728/184775446-364b05b5-ca31-4717-990f-dbc1bb39759a.png)
+![image](https://user-images.githubusercontent.com/86735728/184779028-182a19c1-2983-488c-a40d-13dd2d90b8be.png)
 
 # Optimization of memory and batch size for the training process
 In this section we apply an optimizacion to the amount of data flowing from the directories to the model per epochs, 
