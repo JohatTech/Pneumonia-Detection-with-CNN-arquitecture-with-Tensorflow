@@ -1,4 +1,4 @@
-# Pneumonia-Detection-with-CNN-arquitecture-with-Tensorflwo
+# Pneumonia-Detection-with-CNN-arquitecture-with-Tensorflow
  Deep CNN model for detect Pneumonia on X-ray images with an accuracy of 98.80% base on a
  
 # Loading the dataset
@@ -56,6 +56,7 @@ After training the model I analyse his performance by plotting the accuracy adn 
 In this first iteration we see a slighly good performance using a pooling technique of MaxPooling2D and with a learning rate of 0.003
 but we can still make the performance more stable and the graph smoother so we applied more strides and making the learning rate to 0.001.
 After another evaluation we see improvement on the model, but the validation loss start to diverge after the 30 epochs so we apply l2 regularization to see how this could improve the results.
+![image](https://user-images.githubusercontent.com/86735728/184778843-0434192e-f6b2-40e4-9984-d482a30f536b.png)
 Finally after the regularization we could stable the model and avoid the divergence of the validation loss, 
 in this case the final results was:
 
